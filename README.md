@@ -35,37 +35,25 @@ A extração é feita automaticamente com Selenium, e os dados são organizados 
 
 ## 🚀 Como rodar o projeto:
 
-Abra o terminal na pasta onde deseja clonar o repositório e execute:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio
-cd seu-repositorio
-Backend (FastAPI + Web Scraper)
-bash
-Copiar
-Editar
+Abra o terminal aonde deseja clonar o repositório e dê os seguintes comandos:
+```
+git clone https://github.com/gxot/web-scrapper-olx
+cd web-scrapper-olx
 cd backend
-
-# (opcional) Criar ambiente virtual
+----- OPCIONAL -----
 python -m venv venv
-source venv/bin/activate       # Linux/macOS
-venv\Scripts\activate          # Windows
-
-# Instalar dependências
+source venv/bin/activate (Linux/Mac)
+venv\Scripts\activate (Windows)
+--------------------
 pip install -r requirements.txt
-
-# Iniciar API
-uvicorn main:app --reload
-Frontend (Next.js + Tailwind CSS)
-Abra outro terminal na raiz do projeto:
-
-bash
-Copiar
-Editar
+uvicorn main:app --reload  
+```
+Abra outro terminal dentro da pasta "web-scrapper-olx" e dê esses comandos:
+```
 cd frontend
 npm install
 npm run dev
-Acesse: http://localhost:3000/
+```  
 
 ❌ Para encerrar:
 Basta fechar os dois terminais.
