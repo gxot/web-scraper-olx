@@ -37,8 +37,8 @@ A extração é feita automaticamente com Selenium, e os dados são organizados 
 
 Abra o terminal aonde deseja clonar o repositório e dê os seguintes comandos:
 ```
-git clone https://github.com/gxot/web-scrapper-olx
-cd web-scrapper-olx
+git clone https://github.com/gxot/web-scraper-olx
+cd web-scraper-olx
 cd backend
 ----- OPCIONAL -----
 python -m venv venv
@@ -55,6 +55,5 @@ npm install
 npm run dev
 ```  
 
-❌ Para encerrar:
-Basta fechar os dois terminais.
+❌ Para encerrar: Basta fechar os dois terminais.
 
