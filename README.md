@@ -1,4 +1,5 @@
 # Web Scraper OLX (Python + Next.js)
+# OBS: Atualmente não está funcional por falta de atualização.
 
 ## 📌 Descrição:
 Este projeto é uma aplicação web que realiza **web scraping na OLX**.  
